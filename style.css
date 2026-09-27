@@ -1,0 +1,41 @@
+.card{
+    height: 30vh;
+    background-color: aqua;
+    justify-content: space-evenly;
+}
+
+/* .body{
+    height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+} */
+
+.student-navbar{
+    background-color: rgb(109, 109, 235);
+    max-width: 100vw;
+}
+
+
+.btn{
+    background-color: rgb(109, 109, 235);
+}
+
+.academics{
+    text-align: center;
+}
+
+.divider{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.student-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.course-card{
+    height: 170px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+
+</head>
+<body>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+            crossorigin="anonymous">
+    </script>
+
+<nav class="navbar navbar-expand-sm student-navbar", data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="utils/Adventurescape Logo.png", alt="Logo", width="34", height="28">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item nav-teacher">
+          <a class="nav-link" href="#">Teacher</a>
+        </li>
+        <li class="nav-item nav-courses">
+          <a class="nav-link" href="#">Courses</a>
+        </li>
+        <li class="nav-item nav-admin">
+          <a class="nav-link" href="admin.html">Admin</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+       <!-- <a class="navbar-brand" href="#">
+       <div class="ratio ratio-1x1" style="width: 38px;">
+        <img src="pfp.jpg" alt="Logo" class="rounded-circle object-fit-cover"> 
+    </div>
+        </a> -->
+        <li class="nav-item dropdown nav-student">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="utils/pfp.jpg" alt="Logo" class="rounded-circle object-fit-cover", width="36", height="36"> 
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+    <h4 class="academics">
+      Academics
+    </h4>
+    
+    <div class="row justify-content-center student-row">
+      <hr class="divider">
+      <div class="col-md-auto mb-3 text-center student-img">
+        <img src="utils/pfp.jpg" , alt="Logo" , class="rounded-circle" , height="60" , width="60">
+      </div>
+      <div class="col-md-auto mb-3 text-center student-details">
+        <p>Muhammad Mahad</p>
+        <p>L1F21BSCS0533</p>
+        <p>Faculty of Information Technology</p>
+      </div>
+      <div class="col-md-auto mb-3 text-center">
+        <h6>
+          Academic Standings:
+        </h6>
+        <p>CGPA: 3.15</p>
+      </div>
+      <div class="col-md-auto mb-3 text-center">
+        <h6>
+          Earned Credit hour: 134
+        </h6>
+        <h6>
+          Total Cr: 0
+        </h6>
+        <h6>
+          Inprogress Cr: 0
+        </h6>
+      </div>
+      <hr class="divider">
+    </div>
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-70 course-card">
+            <!-- <img class="card-img-top" src="dsa.webp" alt="Card image cap"> -->
+            <div class="card-body">
+              <h5 class="card-text text-center">Data Structures and Algorithms.</h5>
+              <p class="card-text text-center">Teacher Name</p>
+              <div class="text-center">
+                <a href="#" class="btn btn-primary card-btn">Go to Course</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card course-card">
+            <!-- <img class="card-img-top" src="dsa.webp" alt="Card image cap"> -->
+            <div class="card-body">
+              <h5 class="card-text text-center">DataBase Management System.</h5>
+              <p class="card-text text-center">Teacher Name</p>
+              <div class="text-center">
+                <a href="#" class="btn btn-primary card-btn">Go to Course</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <hr class="divider">
+  </div>
+  
+  <div class="row mt-3">
+    <div class="col-6">
+      News and Announcements
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+
+
+</body>
+</html>
